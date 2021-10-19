@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="STORAGE">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/internal_storage"
+                        android:icon="@drawable/storage"
+                        android:title="Internal Storage" />
+                    <item
+                        android:id="@+id/phone_storage"
+                        android:icon="@drawable/ic_bi_phone"
+                        android:title="Phone Storage" />
+                    <item
+                        android:id="@+id/root"
+                        android:icon="@drawable/ic_akar_icons_hashtag"
+                        android:title="Root" />
+                </group>
+            </menu>
+
+        </item>
+        <item android:title="APPS">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/installed_apps"
+                        android:icon="@drawable/installesapps"
+                        android:title="Internal Storage" />
+                    <item
+                        android:id="@+id/system_apps"
+                        android:icon="@drawable/systemapps"
+                        android:title="System Apps" />
+                    <item
+                        android:id="@+id/process"
+                        android:icon="@drawable/process"
+                        android:title="Processes" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="TRANSFER">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/wifi_share"
+                        android:icon="@drawable/wifi"
+                        android:title="WiFi Share" />
+                    <item
+                        android:id="@+id/transfer_to_pc"
+                        android:icon="@drawable/pcphone"
+                        android:title="Transfer To PC" />
+
+                </group>
+            </menu>
+        </item>
+        <item android:title="BOOKMARKS">
+            <menu>
+                <item
+                    android:id="@+id/bookmark"
+                    android:icon="@drawable/folder"
+                    android:title="Click To Add" />
+            </menu>
+        </item>
+        <item android:title="APPS MEDIA">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/telegram"
+                        android:icon="@drawable/telegram"
+                        android:title="Telegram" />
+                    <item
+                        android:id="@+id/WhatsApp"
+                        android:icon="@drawable/whatsapp"
+                        android:title="WhatsApp" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+    </group>
+
+</menu>

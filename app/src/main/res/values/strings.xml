@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">File manager</string>
+    <string name="navigation_drawer_open">menu open</string>
+    <string name="navigation_drawer_close">menu close</string>
+</resources>
